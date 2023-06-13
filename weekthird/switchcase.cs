@@ -15,11 +15,13 @@ namespace weekthird
             n1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter 2nd no:");
             n2 = Convert.ToInt32(Console.ReadLine());
+            
             Console.WriteLine("1: Addition");
             Console.WriteLine("2: Subtraction");
             Console.WriteLine("3: Multiplication");
             Console.WriteLine("4: Division");
             Console.WriteLine("5: Module");
+            
             Console.WriteLine("Select your option:");
             int op = Convert.ToInt32(Console.ReadLine());
 
