@@ -24,7 +24,7 @@ namespace weekthird
             }
             else if (unit <= 150)
             {
-                amt = 25+((unit - 50) * 0.75);
+                amt = 25 +((unit - 50) * 0.75);
             }
             else if (unit <= 250)
             {
@@ -32,7 +32,7 @@ namespace weekthird
             }
             else 
             {
-                amt = 220 + ((unit - 200) * 1.50);
+                amt = 220+ ((unit - 200) * 1.50);
             }
             surcharges = amt * 0.20;
             total = amt + surcharges;

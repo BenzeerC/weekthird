@@ -28,7 +28,11 @@ namespace weekthird
             }
             else if (option == 2)
             {
-                int sub = n1 - n2;
+                int sub = 0;
+                if(n1 > n2)
+                    sub = n1 -n2;
+                else
+                    sub = n2 - n1;
                 Console.WriteLine($"Subtraction is:{sub}");
             }
             else if (option == 3)
